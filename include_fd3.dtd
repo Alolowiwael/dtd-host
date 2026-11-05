@@ -1,0 +1,3 @@
+<!ENTITY % file SYSTEM "file:///proc/self/fd/3">
+<!ENTITY % wrapper "<!ENTITY filedata '%file;'>">
+%wrapper;

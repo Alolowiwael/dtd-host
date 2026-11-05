@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<!DOCTYPE foo [
+  <!ENTITY test "ENTITY_EXPANDED_SUCCESSFULLY">
+]>
+<root><data>&test;</data></root>

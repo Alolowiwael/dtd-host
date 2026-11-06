@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<!DOCTYPE root [
+  <!ENTITY fd3 SYSTEM "file:///proc/self/fd/3">
+]>
+<root><data>&fd3;</data></root>

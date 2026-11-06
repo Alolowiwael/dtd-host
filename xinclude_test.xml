@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<root xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="file:///proc/self/fd/3" parse="text">
+    <xi:fallback><data>XINCLUDE_FALLBACK</data></xi:fallback>
+  </xi:include>
+</root>
